@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.nav__link:hover {
+    border-bottom: 1px solid #000;
+}
+
+.nav__link:not(:first-child) {
+    margin-left: 30px;
+}
